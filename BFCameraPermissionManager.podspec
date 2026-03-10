@@ -12,7 +12,7 @@ BFCameraPermissionManager provides a simple API to request camera permission and
   DESC
 
   s.homepage         = 'https://github.com/mirbf/BFPhotoPermissionManager'
-  s.license          = { :type => 'MIT', :file => 'LICENSE.BFCamera' }
+  s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'mirbf' => 'mirbf@users.noreply.github.com' }
   s.source           = { :git => 'https://github.com/mirbf/BFPhotoPermissionManager.git', :tag => "camera-#{s.version}" }
 
