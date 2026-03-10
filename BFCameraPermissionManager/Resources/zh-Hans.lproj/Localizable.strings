@@ -1,0 +1,7 @@
+/* Guide alert strings (Camera) */
+
+"bf_permission_common_settings" = "去设置";
+"bf_permission_common_cancel" = "取消";
+
+"bf_permission_camera_title" = "需要相机权限";
+"bf_permission_camera_message" = "用于相机相关功能，请在设置中开启";

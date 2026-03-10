@@ -1,0 +1,7 @@
+/* Guide alert strings (Camera) */
+
+"bf_permission_common_settings" = "Settings";
+"bf_permission_common_cancel" = "Cancel";
+
+"bf_permission_camera_title" = "Camera Permission Required";
+"bf_permission_camera_message" = "Used for the camera feature. Please enable Camera access in Settings.";
