@@ -14,7 +14,7 @@ BFPhotoPermissionManager provides a simple API to request Photo Library permissi
   s.homepage         = 'https://github.com/mirbf/BFPhotoPermissionManager'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'mirbf' => 'mirbf@users.noreply.github.com' }
-  s.source           = { :git => 'git@github.com:mirbf/BFPhotoPermissionManager.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/mirbf/BFPhotoPermissionManager.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '13.0'
   s.swift_version = '5.0'
