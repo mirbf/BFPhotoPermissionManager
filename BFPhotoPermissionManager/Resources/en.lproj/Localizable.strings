@@ -1,0 +1,7 @@
+/* Guide alert strings (Photo Library) */
+
+"bf_permission_common_settings" = "Settings";
+"bf_permission_common_cancel" = "Cancel";
+
+"bf_permission_photo_title" = "Photo Library Permission Required";
+"bf_permission_photo_message" = "Used to access your photos. Please enable Photo Library access in Settings.";

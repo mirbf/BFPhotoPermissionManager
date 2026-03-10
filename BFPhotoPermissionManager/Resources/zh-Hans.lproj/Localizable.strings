@@ -1,0 +1,7 @@
+/* Guide alert strings (Photo Library) */
+
+"bf_permission_common_settings" = "去设置";
+"bf_permission_common_cancel" = "取消";
+
+"bf_permission_photo_title" = "需要相册权限";
+"bf_permission_photo_message" = "用于访问你的照片，请在设置中开启相册权限";
