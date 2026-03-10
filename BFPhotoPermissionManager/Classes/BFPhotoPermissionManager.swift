@@ -113,7 +113,7 @@ public final class BFPhotoPermissionManager: NSObject {
 
             let alert = UIAlertController(title: alertTitle, message: alertMessage, preferredStyle: .alert)
             alert.addAction(UIAlertAction(title: settingsTitle, style: .default) { _ in
-                openAppSettings()
+                openAppSettingsInternal()
                 completion?(true)
             })
             alert.addAction(UIAlertAction(title: cancelTitle, style: .cancel) { _ in
@@ -128,11 +128,11 @@ public final class BFPhotoPermissionManager: NSObject {
 
     @objc
     public class func openAppSettings() {
-        openAppSettings()
+        openAppSettingsInternal()
     }
 }
 
-private func openAppSettings() {
+private func openAppSettingsInternal() {
     DispatchQueue.main.async {
         guard let url = URL(string: UIApplication.openSettingsURLString) else { return }
         UIApplication.shared.open(url, options: [:], completionHandler: nil)
