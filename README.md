@@ -21,7 +21,7 @@ This Pod does not (and should not) ship Info.plist permission strings.
 ## Installation (GitHub)
 
 ```ruby
-pod 'BFPhotoPermissionManager'
+pod 'BFPhotoPermissionManager', :git => 'https://github.com/mirbf/BFPhotoPermissionManager.git', :tag => '0.1.1'
 ```
 
 ## Usage
